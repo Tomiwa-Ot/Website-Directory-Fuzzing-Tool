@@ -1,4 +1,4 @@
-# Website-Directory-Bruteforce-Tool
+# Website-Directory-Fuzzer-Tool
  A tool written in python to find files and directories of web applications using a specified wordlist.
  Tool is written in Python 2.
  Note: If there are errors, its definitely indentation(raise the issue)
