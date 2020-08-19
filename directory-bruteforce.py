@@ -41,7 +41,7 @@ def _process(line, full_url):
     for extension in _EXT:
         saved_url = "{}{}".format(url, extension)
         r = requests.head(saved_url)
-	if r.status_code == 200 or r.status_code == 301:
+        if r.status_code == 200 or r.status_code == 301:
             print("{} | CODE: {}".format(saved_url, r.status_code))
             time.sleep(2.0)
 
